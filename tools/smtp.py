@@ -16,7 +16,6 @@ try:
 except:
     os.system("pip install uuid")
     import uuid
-from tkinter.filedialog import askopenfile
 class SMTP:
     def __init__(self,bot=False,message_id=False):
         self.bot = bot
